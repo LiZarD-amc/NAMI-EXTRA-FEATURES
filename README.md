@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/b779334e2ec1a8b226a1b.jpg" alt="Ajax-Extra-Features Logo">
+  <img src="https://telegra.ph/file/b779334e2ec1a8b226a1b.jpg" alt="NamiI-Extra-Features Logo">
 </p>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐖𝐄𝐋𝐂𝐎𝐌𝐄+𝐓𝐎+𝐍𝐀𝐌𝐈+𝐁𝐎𝐓+𝐕𝟐!;𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑+𝐋𝐈𝐙𝐀𝐑𝐃;𝐈+𝐀𝐌+𝐀+𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋+𝐀𝐔𝐓𝐎𝐅𝐈𝐋𝐓𝐄𝐑!;𝐀𝐍𝐃+𝐆𝐑𝐎𝐔𝐏+𝐌𝐀𝐍𝐀𝐆𝐄𝐑+𝐁𝐎𝐓!;𝐒𝐏𝐄𝐂𝐈𝐀𝐋+𝐓𝐇𝐀𝐍𝐊𝐒+𝐅𝐎𝐑+𝐋𝐈𝐙𝐀𝐑𝐃!)
