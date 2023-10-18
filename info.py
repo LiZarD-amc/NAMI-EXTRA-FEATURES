@@ -44,8 +44,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS' ,'https://telegra.ph/file/3d87cdb638b5444198c59.jpg https://telegra.ph/file/2140af3c0cb1c848ef5a0.jpg https://telegra.ph/file/f5c3720b2ce9d1d97d59f.jpg https://telegra.ph/file/e67137996688342d75f1e.jpg')).split()
-
+PICS = (environ.get('PICS' ,'https://telegra.ph/file/92dd67f7577224a976a7d.jpg https://telegra.ph/file/f07e1d4a5e43a80f6aece.jpg https://telegra.ph/file/3c528be1e24654f9b03fd.jpg https://telegra.ph/file/c682acb305752efcb85e6.jpg https://telegra.ph/file/ecbcf5b54fba3acc09c1b.jpg https://telegra.ph/file/e7268c51c4fca2a879830.jpg https://telegra.ph/file/6676602f61d9a03982e95.jpg https://telegra.ph/file/7281bb5606567037f2f95.jpg https://telegra.ph/file/d556abe653d3f30a827db.jpg https://telegra.ph/file/93fb81df5fac3c6fad162.jpg https://telegra.ph/file/2d2fb672cd9c835fdbe41.jpg https://telegra.ph/file/479f25ee51d78b5c7deca.jpg https://telegra.ph/file/2d74d2bcb89a1f86e9d5b.jpg https://telegra.ph/file/5033a1cd72319c8b300b8.jpg https://telegra.ph/file/96c0f56eee80d16aee112.jpg')).split()
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
@@ -79,6 +78,8 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/planet_movies_grp')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/planet_movies_links')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'planet_movies_grp')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
