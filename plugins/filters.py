@@ -22,19 +22,34 @@ async def regex(client, message):
 
 ℹ️ MOVIE REQUESTS IN THIS FORMATS ℹ️ 👇🏻
 
-<b>Pushpa ✅
+<b>RDx ✅
 
-Pushpa 2021 ✅
+RDX 2023 ✅
 
-Pushpa Malayalam ✅</b>
+RDX MALAYALAM ✅</b>
 
-~~Pushpa Movie Link Undo ❌
+~~RDX Movie Link Undo ❌
 
-Pushpa File Send  ❌
+RDX File Send  ❌
 
-Pushpa Movie  ❌
+RDX Movie  ❌
 
-Pushpa Undo  ❌~~""")
+RDX Undo  ❌~~
+
+‼️‼️ INSTRUCTIONS ‼️‼️
+
+ℹ️ SERIES REQUESTS IN THIS FORMATS ℹ️ 👇🏻
+<b>𝙇𝙊𝙆𝙄 ✅
+
+𝙇𝙊𝙆𝙄 𝙎01 ✅
+
+𝙇𝙊𝙆𝙄 𝙎01𝙀01 ✅<b>
+
+~~𝙇𝙊𝙆𝙄 𝙎1 ❌
+
+𝙇𝙊𝙆𝙄 S1E1❌
+
+𝙇𝙊𝙆𝙄 𝙎𝙀𝙍𝙄𝙀𝙎 ❌~~""")
 @Client.on_message(filters.command(['filter', 'add']) & filters.incoming)
 async def addfilter(client, message):
     userid = message.from_user.id if message.from_user else None
