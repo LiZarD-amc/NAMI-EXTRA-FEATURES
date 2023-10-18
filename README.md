@@ -8,17 +8,6 @@
   <b>𝐍𝐀𝐌𝐈-𝐄𝐗𝐓𝐑𝐀-𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒</b>
 </h1>
 
-## Deploy
-You can deploy this bot anywhere.
-
-
-<summary>Deploy To Heroku</summary>
-<br>
-<p>
-<a href="https://heroku.com/deploy?template=https://github.com/LiZarD-amc/NAMI-EXTRA-FEATURES">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
 
 # NAMI-EXTRA-FEATURES
 private source code not public
