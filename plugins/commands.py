@@ -55,14 +55,14 @@ async def start(client, message):
             InlineKeyboardButton(' 𝑴𝑶𝑽𝑰𝑬 𝑮𝑹𝑶𝑼𝑷 🎬', url='https://t.me/planet_movies_grp'),
             InlineKeyboardButton('𝑼𝑷𝑫𝑨𝑻𝑬𝑺 📢', url='https://t.me/planet_movies_links')
             ],[      
-            InlineKeyboardButton('𝑪𝑶𝑵𝑻𝑨𝑪𝑻 𝑫𝑬𝑽 💬', url='https://t.me/LiZarD_amc')
+            InlineKeyboardButton('𝑪𝑶𝑵𝑻𝑨𝑪𝑻 𝑫𝑬𝑽 💬', callback_data="owner_info")
             ],[
             InlineKeyboardButton('𝑯𝑬𝑳𝑷 ℹ️', callback_data='help'),
             InlineKeyboardButton('𝑨𝑩𝑶𝑼𝑻 🤠', callback_data='about')
             ],[
             InlineKeyboardButton('🔍 𝑺𝑬𝑨𝑹𝑪𝑯 𝑯𝑬𝑹𝑬 𝑴𝑶𝑽𝑰𝑬𝑺 🔎', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('𝑪𝑹𝑬𝑫𝑰𝑻 💫', url='https://t.me/LiZarD_amc')
+            InlineKeyboardButton('𝑵𝑨𝑴𝑰 𝑼𝑷𝑫𝑨𝑻𝑬𝑺 🪄', url='https://t.me/planet_movies_nami_updates')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
 
@@ -127,14 +127,14 @@ async def start(client, message):
             InlineKeyboardButton('𝑴𝑶𝑽𝑰𝑬 𝑮𝑹𝑶𝑼𝑷 🎬', url='https://t.me/planet_movies_grp'),
             InlineKeyboardButton('𝑼𝑷𝑫𝑨𝑻𝑬𝑺 📢', url='https://t.me/planet_movies_links')
             ],[      
-            InlineKeyboardButton('𝑪𝑶𝑵𝑻𝑨𝑪𝑻 𝑫𝑬𝑽 💬', url='https://t.me/LiZarD_amc')
+            InlineKeyboardButton('𝑪𝑶𝑵𝑻𝑨𝑪𝑻 𝑫𝑬𝑽 💬', callback_data="owner_info")
             ],[
             InlineKeyboardButton('𝑯𝑬𝑳𝑷 ℹ️', callback_data='help'),
             InlineKeyboardButton('𝑨𝑩𝑶𝑼𝑻 🤠', callback_data='about')
             ],[
             InlineKeyboardButton('🔍 𝑺𝑬𝑨𝑹𝑪𝑯 𝑯𝑬𝑹𝑬 𝑴𝑶𝑽𝑰𝑬𝑺 🔎', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('𝑪𝑹𝑬𝑫𝑰𝑻 💫', url='https://t.me/LiZarD_amc')
+            InlineKeyboardButton('𝑵𝑨𝑴𝑰 𝑼𝑷𝑫𝑨𝑻𝑬𝑺 🪄', url='https://t.me/planet_movies_nami_updates')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
